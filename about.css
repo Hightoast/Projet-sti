@@ -1,0 +1,140 @@
+body{
+    font-family: Georgia,merriweather,times new roman;
+    line-height: 1.4;
+    letter-spacing: 0.2;
+    margin: 0px;
+    background-color:white;
+    font-family: "oswald";
+}
+header{
+    padding: 30px 10px 30px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background:linear-gradient(to bottom, #bcbcbc, #ffffff);
+    height: 40px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+header img{
+    position:absolute;
+    left: 10px;
+    bottom: 30px;
+    color: black;
+    height: 40px;
+    width: 40px;
+    margin: auto;}
+nav{
+    display:flex;
+    justify-content: center;
+    margin: auto;}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    color: black;}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 20px;}
+
+.button{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    color: black;
+}
+.button:visited{
+    color: black;
+}
+.button:hover{
+    border-radius: 15px;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 15px rgb(40, 40, 40);
+}
+section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px 100px 0px 100px;
+    }
+pre{
+    color: white;
+}
+
+.card {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    background: #2f2f2f;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 35px 10px 10px;
+  }
+
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 0.9em;
+    margin: 1em;
+  }
+  
+  
+  .card .share {
+    margin: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    margin: 10px;
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+
